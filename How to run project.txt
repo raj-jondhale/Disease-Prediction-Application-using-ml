@@ -1,0 +1,19 @@
+How_to_run_project
+1 You should have one IDE to run the Python Program
+e.g. VS Code,Pycharm,etc
+
+2. Import the libraries 
+numpy==1.21.4
+pickle-mixin==1.0.2
+streamlit==1.2.0
+streamlit-option-menu==0.3.2
+scikit-learn==1.0.1
+import pickle
+import streamlit as st
+from streamlit_option_menu import option_menu
+
+3 For running the program
+you should have in the same directory 
+streamlit run "file_name"
+e.g streamlit run  multiple\ disease\ pred.py
+
